@@ -26,3 +26,7 @@ li {
     color: red;
     margin-top: 5px;
 }
+#emptystate{
+    color: gray;
+    margin-top: 10px;
+}
