@@ -14,20 +14,5 @@ function addTask() {
   document.getElementById("taskList").appendChild(li);
   
   input.value = "";
-  updateEmptyState();
 }
-function clearTasks() {
-    const taskList = document.getElementById("taskList");
-    taskList.innerHTML = "";
-    updateEmptyState();
-  }
-function updateEmptyState() {
-    const taskList = document.getElementById("taskList");
-    const emptyState = document.getElementById("emptyState");
 
-    if (taskList.children.length === 0) {
-        emptyState.style.display = "block";
-    } else {
-        emptyState.style.display = "none";
-    }
-}
